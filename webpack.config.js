@@ -19,20 +19,20 @@ module.exports = {
       },
       {
         test: /\.(css|scss)$/,
+        loader: "style-loader!css-loader!sass-loader"
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
         use: [
-          // style-loader
-          { loader: 'style-loader' },
-          // css-loader
           {
-            loader: 'css-loader',
+            loader: "file-loader",
             options: {
-              modules: true
-            }
+              name: "[name].[ext]",
+              outputPath: "fonts/",
+            },
           },
-          // sass-loader
-          { loader: 'sass-loader' }
-        ]
-        },
+        ],
+      },
       {
         test: /\.html$#/,
         use: [
@@ -42,6 +42,10 @@ module.exports = {
         ],
       },
     ],
+  },
+  devtool: "eval-source-map",
+  devServer: {
+    contentBase: path.join(__dirname, "public"),
   },
   plugins: [
     new HtmlWebPackPlugin({
