@@ -13,10 +13,10 @@ import PageSpinner from "./components/PageSpinner";
 // import "react-toastify/dist/ReactToastify.css";
 // import componentQueries from 'react-component-queries';
 import "./styles/reduction.scss";
-import SignIn from "pages/SignPage";
+import SignIn from "./pages/SignPage";
 import { history } from "./history";
 
-const DashboardPage = React.lazy(() => import("pages/DashboardPage"));
+const DashboardPage = React.lazy(() => import("./pages/DashboardPage"));
 
 /* New Page loading using easy loading */
 const PateintRegistationPage = React.lazy(() =>
@@ -31,7 +31,7 @@ const PatientPrescriptions = React.lazy(() =>
 );
 
 /* Consultation page loading */
-const ConsultationPage = React.lazy(() => import("pages/ConsultationPage"));
+const ConsultationPage = React.lazy(() => import("./pages/ConsultationPage"));
 const ConsultationDashboardPage = React.lazy(() =>
   import("./components/Consultation/Dashboard")
 );
@@ -61,7 +61,7 @@ const ViewForm = React.lazy(() => import("./components/FormManager/ViewForm"));
 /* Pharmacy page loading */
 const PharmacyDashboard = React.lazy(() => import("./components/Pharmacy/PharmacyDashboard"))
 
-const AppointmentPage = React.lazy(() => import("pages/AppointmentPage"));
+const AppointmentPage = React.lazy(() => import("./pages/AppointmentPage"));
 const CheckInPatientPage = React.lazy(() =>
   import("./components/CheckIn/CheckedInPatientPage")
 );
@@ -77,17 +77,17 @@ const EnrolledPatientsDashboard = React.lazy(() =>
 );
 
 /* Sample table i design */
-const TestPage = React.lazy(() => import("pages/TestPage"));
+const TestPage = React.lazy(() => import("./pages/TestPage"));
 const FormRendererPage = React.lazy(() => import("./components/FormManager/FormRendererPage"));
-const getBasename = () => {
-  return `/${process.env.PUBLIC_URL.split("/").pop()}`;
-};
+// const getBasename = () => {
+//   return `/${process.env.PUBLIC_URL.split("/").pop()}`;
+// };
 
 const Prescript = React.lazy(() => import("./components/Pharmacy/prescriptions"))
 class Routes extends Component {
   render() {
     return (
-      <BrowserRouter basename={getBasename()} history={history}>
+      <BrowserRouter history={history}>
         <Switch>
          
           <LayoutRoute exact path="/" layout={EmptyLayout} component={SignIn} />

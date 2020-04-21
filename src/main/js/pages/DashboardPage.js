@@ -1,5 +1,5 @@
-import Page from 'components/Page';
-import UserProgressTable from 'components/UserProgressTable';
+import Page from '../components/Page';
+import UserProgressTable from '../components/UserProgressTable';
 
 import { FaUserPlus, FaCalendarAlt, FaUserCheck} from 'react-icons/fa'; 
 import { MdAirlineSeatIndividualSuite} from 'react-icons/md';
@@ -7,7 +7,7 @@ import {
   genLineData,
   // chartjs,
   userProgressTableData,
-} from 'demos/dashboardPage';
+} from '../demos/dashboardPage';
 import React from 'react';
 import { Line } from 'react-chartjs-2';
 

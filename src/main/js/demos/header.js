@@ -1,4 +1,4 @@
-import user1Image from 'assets/img/users/100_4.png';
+import user1Image from '../assets/img/users/100_4.png';
 
 
 

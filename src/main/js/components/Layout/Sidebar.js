@@ -1,6 +1,6 @@
-import logo200Image from 'assets/img/logo/lamislogo.png';
-import sidebarBgImage from 'assets/img/sidebar/sidebar-4.jpg';
-import SourceLink from 'components/SourceLink';
+import logo200Image from '../../assets/img/logo/lamislogo.png';
+import sidebarBgImage from '../../assets/img/sidebar/sidebar-4.jpg';
+import SourceLink from '../../components/SourceLink';
 import React from 'react';
 import {
   MdDashboard,
@@ -14,7 +14,7 @@ import {
   NavItem,
   NavLink as BSNavLink,
 } from 'reactstrap';
-import bn from 'utils/bemnames';
+import bn from '../../utils/bemnames';
 
 
 

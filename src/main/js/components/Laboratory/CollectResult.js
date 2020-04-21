@@ -37,14 +37,14 @@ import Paper from '@material-ui/core/Paper'
 import { toast } from 'react-toastify'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import Page from 'components/Page'
+import Page from '../../components/Page'
 import {  fetchById } from '../../actions/patients'
 import {  fetchAllLabTestOrderOfPatient } from '../../actions/laboratory'
 import ModalSampleVerify from './VerifySample';
 import ModalSampleResult from './EnterResult';
 import ModalSampleReject from './SampleRejection';
 import { useSelector, useDispatch } from 'react-redux';
-import PatientDetailCard from 'components/Functions/PatientDetailCard';
+import PatientDetailCard from '../../components/Functions/PatientDetailCard';
 
 
 Moment.locale('en')

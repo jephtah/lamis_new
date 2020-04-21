@@ -22,13 +22,13 @@ import { Line } from 'react-chartjs-2';
 import {
     ViralLoad,Weight
   } from 'demos/patientVIral';
-import PatientAlert from 'components/PatientDashboard/PatientAlert';
-import PatientAllergies from 'components/PatientDashboard/PatientAllergies';
-import PatientVitals from 'components/PatientDashboard/PatientVitals';
-import PatientLabTest from 'components/PatientDashboard/PatientLabTest';
-import ClinicalHistory from 'components/PatientDashboard/ClinicalHistory';
+import PatientAlert from '../../components/PatientDashboard/PatientAlert';
+import PatientAllergies from '../../components/PatientDashboard/PatientAllergies';
+import PatientVitals from '../../components/PatientDashboard/PatientVitals';
+import PatientLabTest from '../../components/PatientDashboard/PatientLabTest';
+import ClinicalHistory from '../../components/PatientDashboard/ClinicalHistory';
 import Consultation from './consulatation/consultation';
-import PatientDetailCard from 'components/Functions/PatientDetailCard';
+import PatientDetailCard from '../../components/Functions/PatientDetailCard';
 import TestOrder from './TestOrder/TestOrder';
 import Medication from './Medication/Medication';
 import ServiceForm from './ServiceForm/serviceForm';

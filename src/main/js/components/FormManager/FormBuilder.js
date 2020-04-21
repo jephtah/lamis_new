@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Page from 'components/Page';
+import Page from '../../components/Page';
 import { connect } from 'react-redux';
 import { saveForm, selectError, FormEdit, Errors, FormBuilder } from 'react-formio';
 import {Card,CardContent,} from '@material-ui/core';

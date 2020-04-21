@@ -1,4 +1,4 @@
-import Page from "components/Page";
+import Page from "../../components/Page";
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
@@ -7,7 +7,7 @@ import { Card, CardContent } from "@material-ui/core";
 import { FaUserPlus } from "react-icons/fa";
 import { TiWarningOutline } from "react-icons/ti";
 import { makeStyles } from "@material-ui/core/styles";
-import Title from "components/Title/CardTitle";
+import Title from "../../components/Title/CardTitle";
 import PatientList from "./PatientSearch";
 
 const useStyles = makeStyles(theme => ({

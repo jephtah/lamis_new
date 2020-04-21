@@ -1,7 +1,7 @@
 import React from 'react';
-import Page from 'components/Page';
+import Page from '../../components/Page';
 import { Errors, Form } from 'react-formio';
-import * as actions from "actions/formManager";
+import * as actions from "../../actions/formManager";
 import {connect} from 'react-redux';
 import Moment from 'moment'
 import momentLocalizer from 'react-widgets-moment'

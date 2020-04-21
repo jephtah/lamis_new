@@ -5,7 +5,7 @@ import {
     Row,
     CardBody,
 } from 'reactstrap';
-import TestResultList from 'components/Laboratory/TestResultList';
+import TestResultList from '../../components/Laboratory/TestResultList';
 
 
 export default function TestOrderMain (props) {

@@ -4,7 +4,7 @@ import "./PatientSearch.css";
 import { Input, Form } from "reactstrap";
 import { Card } from "reactstrap";
 import { Link } from "react-router-dom";
-import { fetchAllLabTestOrder } from "actions/laboratory";
+import { fetchAllLabTestOrder } from "../../actions/laboratory";
 import { connect } from "react-redux";
 import { url } from "../../api";
 

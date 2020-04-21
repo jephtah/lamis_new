@@ -4,7 +4,7 @@ import { Card, CardContent } from '@material-ui/core'
 import IconButton from '@material-ui/core/IconButton'
 import { AssignmentTurnedIn, Delete } from '@material-ui/icons'
 import { AddBox } from '@material-ui/icons'
-import AddVitalsPage from 'components/Vitals/AddVitalsPage'
+import AddVitalsPage from '../../components/Vitals/AddVitalsPage'
 import './PatientSearch.css'
 import {
   Input,

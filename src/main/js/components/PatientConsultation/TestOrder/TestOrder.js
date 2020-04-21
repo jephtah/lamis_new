@@ -21,7 +21,7 @@ import {
   
   import {connect} from 'react-redux';
   import { v1 as uuidv1 } from 'uuid';
-  import * as CODES from "api/codes";
+  import * as CODES from "../../../api/codes";
   import PreviousTestOrder from './TestOrderHistory'
 
   

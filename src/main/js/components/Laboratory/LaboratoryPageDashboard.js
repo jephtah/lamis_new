@@ -19,9 +19,9 @@ import {
   // Nav, NavItem, NavLink, Badge, 
   Card, CardBody, CardDeck, CardHeader } from 'reactstrap';
 import { Bar, Pie } from 'react-chartjs-2';
-import { getColor } from 'utils/colors';
-import { randomNum } from 'utils/demos';
-import UserProgressTable from 'components/UserProgressTable';
+import { getColor } from '../../utils/colors';
+import { randomNum } from '../../utils/demos';
+import UserProgressTable from '../../components/UserProgressTable';
 // import TestOrderList from './PatientSearch';
 // import LabTestResult from './LabTestResult';
 // import LabTestResults from './LabTestResults';

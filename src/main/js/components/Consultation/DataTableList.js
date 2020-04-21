@@ -5,7 +5,7 @@ import IconButton from '@material-ui/core/IconButton';
 import {Dashboard} from '@material-ui/icons';
 import './PatientSearch.css';
 import {Input,Form} from 'reactstrap';
-import {url} from 'api/index';
+import {url} from '../../api/index';
 import {Link} from 'react-router-dom';
 
 /**Find table documentations at

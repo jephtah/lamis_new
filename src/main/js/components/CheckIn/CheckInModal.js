@@ -21,8 +21,8 @@ import 'react-widgets/dist/css/react-widgets.css';
 import { DateTimePicker } from 'react-widgets';
 import Moment from 'moment';
 import momentLocalizer from 'react-widgets-moment';
-import { create } from 'actions/checkIn'
-import * as actions from "actions/patients";
+import { create } from '../../actions/checkIn'
+import * as actions from "../../actions/patients";
 import { connect } from 'react-redux'
 import { initialfieldState_checkInPatient } from './initailFieldState'
 import Spinner from 'react-bootstrap/Spinner';

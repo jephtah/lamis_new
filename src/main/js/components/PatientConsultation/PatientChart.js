@@ -3,7 +3,7 @@ import { Card, CardHeader,CardBody, CardDeck} from 'reactstrap';
 import { Line } from 'react-chartjs-2';
 import {
     ViralLoad,Weight
-  } from 'demos/patientVIral';
+  } from '../../demos/patientViral';
 export default function PatientChart(props ) {
   return (<CardDeck>
 <Card >

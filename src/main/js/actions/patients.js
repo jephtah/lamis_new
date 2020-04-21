@@ -1,7 +1,7 @@
 import axios from "axios";
 import { url as baseUrl } from "../api";
 import * as ACTION_TYPES from "./types";
-import * as CODES from "api/codes";
+import * as CODES from "../api/codes";
 import { toast } from "react-toastify";
 
 /**

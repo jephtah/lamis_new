@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import DataTable from 'react-data-table-component'
 import { Alert } from 'reactstrap'
-import * as actions from "actions/patients";
+import * as actions from "../../../actions/patients";
 import {connect} from 'react-redux';
 import "./Style.css";
 

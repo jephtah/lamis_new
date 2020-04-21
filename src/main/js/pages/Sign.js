@@ -12,7 +12,7 @@ import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import sigInLogo from 'assets/img/signin.jpg';
+import sigInLogo from '../assets/img/signin.jpg';
 import logo200Image from 'assets/img/logo/logo_200.png';
 
 function Copyright() {

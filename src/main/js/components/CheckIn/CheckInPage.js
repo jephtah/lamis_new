@@ -1,4 +1,4 @@
-import Page from 'components/Page';
+import Page from '../../components/Page';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
@@ -16,7 +16,7 @@ import {
 import { TiWarningOutline } from "react-icons/ti";
  
 import { makeStyles } from '@material-ui/core/styles';
-import Title from 'components/Title/CardTitle';
+import Title from '../../components/Title/CardTitle';
 import CheckInList from './CheckInList';
 
 

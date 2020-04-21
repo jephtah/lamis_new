@@ -10,9 +10,9 @@ import Grid from '@material-ui/core/Grid';
 import { MdDashboard, MdContacts } from 'react-icons/md';
 import {Card, CardBody, CardDeck, CardHeader} from 'reactstrap';
 import { Bar, Pie } from 'react-chartjs-2';
-import { getColor } from 'utils/colors';
-import { randomNum } from 'utils/demos';
-import UserProgressTable from 'components/UserProgressTable';
+import { getColor } from '../../utils/colors';
+import { randomNum } from '../../utils/demos';
+import UserProgressTable from '../../components/UserProgressTable';
 import PatientSearch from './PatientSearch';
 import { fetchPrescriptions } from "../../actions/pharmacy";
 import { connect } from 'react-redux'

@@ -8,9 +8,9 @@ import {
     CardBody,
     Modal, ModalBody, ModalHeader
   } from 'reactstrap';
-  import AddVitalsPage from 'components/Vitals/AddVitalsPage';
-  import * as actions from "actions/patients";
-  import * as encounterAction from "actions/encounter";
+  import AddVitalsPage from '../../components/Vitals/AddVitalsPage';
+  import * as actions from "../../actions/patients";
+  import * as encounterAction from "../../actions/encounter";
   import {connect} from 'react-redux';
 
  function PatientVitals(props) {

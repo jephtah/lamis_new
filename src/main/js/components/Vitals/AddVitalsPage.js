@@ -12,9 +12,9 @@ import 'react-widgets/dist/css/react-widgets.css'
 import { DateTimePicker } from 'react-widgets'
 import Moment from 'moment'
 import momentLocalizer from 'react-widgets-moment'
-import * as encounterAction from "actions/encounter";
-import * as actions from "actions/patients";
-import * as CODES from "api/codes";
+import * as encounterAction from "../../actions/encounter";
+import * as actions from "../../actions/patients";
+import * as CODES from "../../api/codes";
 import {connect} from 'react-redux';
 //Dtate Picker package
 Moment.locale('en')

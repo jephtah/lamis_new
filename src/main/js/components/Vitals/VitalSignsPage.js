@@ -1,4 +1,4 @@
-import Page from 'components/Page';
+import Page from '../../components/Page';
 import React from 'react';
 import {
     Form,
@@ -12,7 +12,7 @@ import {
 import { TiWarningOutline } from "react-icons/ti";
 
 import { makeStyles } from '@material-ui/core/styles';
-import VitalSignsSearch from 'components/Vitals/VitalSignsSearch'
+import VitalSignsSearch from '../../components/Vitals/VitalSignsSearch'
 
 const useStyles = makeStyles(theme => ({
     card: {

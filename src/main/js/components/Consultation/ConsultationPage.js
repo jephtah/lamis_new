@@ -1,4 +1,4 @@
-import Page from 'components/Page';
+import Page from '../../components/Page';
 import React from 'react';
 import {
   Form,
@@ -11,8 +11,8 @@ import {
 from '@material-ui/core';
 import { TiWarningOutline } from "react-icons/ti";
 import { makeStyles } from '@material-ui/core/styles';
-import Title from 'components/Title/CardTitle';
-import TableData from 'components/Consultation/DataTableList';
+import Title from '../../components/Title/CardTitle';
+import TableData from '../../components/Consultation/DataTableList';
 
   const useStyles = makeStyles(theme => ({
     card: {

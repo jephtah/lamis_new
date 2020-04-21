@@ -1,4 +1,4 @@
-import Page from 'components/Page';
+import Page from '../../components/Page';
 import React from 'react';
 import {
   Card,
@@ -22,7 +22,7 @@ import { Link } from 'react-router-dom';
 import Tooltip from '@material-ui/core/Tooltip';
 import IconButton from '@material-ui/core/IconButton';
 import TablePagination from '@material-ui/core/TablePagination';  
-import ResultSearch from 'components/Laboratory/SearchForm/ResultSearch';
+import ResultSearch from '../../components/Laboratory/SearchForm/ResultSearch';
 
 import axios from 'axios';
 //import {url} from 'axios/url';

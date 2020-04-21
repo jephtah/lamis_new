@@ -21,14 +21,14 @@ import { FaBriefcaseMedical} from "react-icons/fa";
 import { Line } from 'react-chartjs-2';
 import {
     ViralLoad,Weight
-  } from './node_modules/demos/patientVIral';
-import PatientAlert from './node_modules/components/PatientDashboard/PatientAlert';
-import PatientAllergies from './node_modules/components/PatientDashboard/PatientAllergies';
-import PatientVitals from './node_modules/components/PatientDashboard/PatientVitals';
-import PatientLabTest from './node_modules/components/PatientDashboard/PatientLabTest';
-import ClinicalHistory from './node_modules/components/PatientDashboard/ClinicalHistory';
+  } from "../../demos/patientViral"
+import PatientAlert from '../../components/PatientDashboard/PatientAlert';
+import PatientAllergies from '../../components/PatientDashboard/PatientAllergies';
+import PatientVitals from '../../components/PatientDashboard/PatientVitals';
+import PatientLabTest from '../../components/PatientDashboard/PatientLabTest';
+import ClinicalHistory from '../../components/PatientDashboard/ClinicalHistory';
 import Consultation from './consulatation/consultation';
-import PatientDetailCard from './node_modules/components/Functions/PatientDetailCard';
+import PatientDetailCard from '../../components/Functions/PatientDetailCard';
 import TestOrder from './TestOrder/TestOrder';
 import Medication from './Medication/Medication';
 import ServiceForm from './ServiceForm/serviceForm';

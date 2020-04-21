@@ -13,7 +13,7 @@ import {
     Label,
     Row,
   } from 'reactstrap';
-import Title from 'components/Title/CardTitle';
+import Title from '../../components/Title/CardTitle';
 import SaveIcon from '@material-ui/icons/Save';
 import CancelIcon from '@material-ui/icons/Cancel';
 import Spinner from 'react-bootstrap/Spinner';

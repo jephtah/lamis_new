@@ -35,7 +35,7 @@ import * as patientActions from "../../../actions/patients";
 
 import {connect} from 'react-redux';
 import { v1 as uuidv1 } from 'uuid';
-import * as CODES from "api/codes";
+import * as CODES from "../../../api/codes";
 import PreviousMedication from './PreviousMedication'
 
 //Dtate Picker package

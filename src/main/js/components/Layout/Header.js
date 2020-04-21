@@ -1,7 +1,7 @@
-import Avatar from 'components/Avatar';
-import { UserCard } from 'components/Card';
-import Notifications from 'components/Notifications';
-import { notificationsData } from 'demos/header';
+import Avatar from '../../components/Avatar';
+import { UserCard } from '../../components/Card';
+import Notifications from '../../components/Notifications';
+import { notificationsData } from '../../demos/header';
 // import withBadge from 'hocs/withBadge';
 import React from 'react';
 import {Link} from 'react-router-dom';
@@ -25,7 +25,7 @@ import {
   Popover,
   PopoverBody,
 } from 'reactstrap';
-import bn from 'utils/bemnames';
+import bn from '../../utils/bemnames';
 
 const bem = bn.create('header');
 

@@ -21,19 +21,19 @@ import {GiFiles,GiTestTubes } from 'react-icons/gi';
 import { FaBriefcaseMedical} from "react-icons/fa"; 
 //{/*  Check box list */}
 
-import PatientChart from 'components/PatientConsultation/PatientChart';
-import PatientAllergies from 'components/PatientDashboard/PatientAllergies';
-import PatientVitals from 'components/PatientDashboard/PatientVitals';
-import ClinicalHistory from 'components/PatientDashboard/ClinicalHistory';
+import PatientChart from '../../components/PatientConsultation/PatientChart';
+import PatientAllergies from "../../components/PatientDashboard/PatientAllergies";
+import PatientVitals from "../../components/PatientDashboard/PatientVitals";
+import ClinicalHistory from "../../components/PatientDashboard/ClinicalHistory";
 import Consultation from './consulatation/consultation';
-import PatientDetailCard from 'components/Functions/PatientDetailCard';
+import PatientDetailCard from "../../components/Functions/PatientDetailCard";
 import TestOrder from './TestOrder/TestOrder';
 import Medication from './Medication/Medication';
 import ServiceForm from './ServiceForm/serviceForm';
 import { Nav, NavItem, NavLink, Badge, Card, CardBody, CardDeck } from 'reactstrap';
-import CheckInModal from 'components/CheckIn/CheckInModal';
-import ViewVitalsSearch from 'components/Vitals/ViewVitalsSearch'
-import * as actions from "actions/patients";
+import CheckInModal from '../../components/CheckIn/CheckInModal';
+import ViewVitalsSearch from '../../components/Vitals/ViewVitalsSearch'
+import * as actions from "../../actions/patients";
 import {connect} from 'react-redux';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import Popover from '@material-ui/core/Popover';

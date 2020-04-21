@@ -14,10 +14,10 @@ import {
   MdSearch
 } from 'react-icons/md';
 import "react-datepicker/dist/react-datepicker.css";
-import DateMaterial from 'components/DateTime/Date'
-import Page from 'components/Page';
-import SearchInput from 'components/SearchBox/SearchInput';
-import DataTableList from 'components/DataTable/DataTable';
+import DateMaterial from '../components/DateTime/Date'
+import Page from '../components/Page';
+import SearchInput from '../components/SearchBox/SearchInput';
+import DataTableList from '../components/DataTable/DataTable';
 
 
 export default function Appointment(){

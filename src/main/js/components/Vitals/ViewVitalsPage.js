@@ -1,4 +1,4 @@
-import Page from 'components/Page';
+import Page from '../../components/Page';
 import React , {useState} from 'react';
 import { Link } from 'react-router-dom';
 import {Button,Alert} from 'reactstrap';
@@ -11,15 +11,15 @@ import {
 import { TiWarningOutline } from "react-icons/ti";
 
 import { makeStyles } from '@material-ui/core/styles';
-// import SearchInput from 'components/SearchBox/SearchInput';
-import Title from 'components/Title/CardTitle';
-import ViewVitalsSearch from 'components/Vitals/ViewVitalsSearch'
+// import SearchInput from '../../components/SearchBox/SearchInput';
+import Title from '../../components/Title/CardTitle';
+import ViewVitalsSearch from '../../components/Vitals/ViewVitalsSearch'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import {MdKeyboardBackspace} from 'react-icons/md';
 import {Modal, ModalBody, ModalHeader} from 'reactstrap';
-import AddVitalsPage from 'components/Vitals/AddVitalsPage';
+import AddVitalsPage from '../../components/Vitals/AddVitalsPage';
 
 const useStyles = makeStyles(theme => ({
 

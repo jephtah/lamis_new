@@ -3,7 +3,7 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { makeStyles } from '@material-ui/core/styles';
-import   { Age } from 'components/Functions/GetAge';
+import   { Age } from '../../components/Functions/GetAge';
 import {connect} from 'react-redux';
 import { Col, Row, } from 'reactstrap'
 

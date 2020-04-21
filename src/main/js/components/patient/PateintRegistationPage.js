@@ -1,5 +1,5 @@
 import axios from 'axios';
-import Page from "components/Page";
+import Page from "../../components/Page";
 import React, { useState, useEffect } from "react";
 import MatButton from "@material-ui/core/Button";
 import "./PatientRegistrationPage.css";
@@ -29,7 +29,7 @@ import Moment from "moment";
 import momentLocalizer from "react-widgets-moment";
 import moment from "moment";
 // React Notification
-import Title from "components/Title/CardTitle";
+import Title from "../../components/Title/CardTitle";
 import { url } from "../../api";
 import { create } from "../../actions/patients";
 import { initialfieldState_patientRegistration } from "./InitialFieldState";

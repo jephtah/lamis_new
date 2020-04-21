@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from 'reactstrap'
-import FormRenderer from 'components/FormManager/FormRenderer';
+import FormRenderer from '../../components/FormManager/FormRenderer';
 import {connect} from 'react-redux';
 
 function FormRendererPage(props) {

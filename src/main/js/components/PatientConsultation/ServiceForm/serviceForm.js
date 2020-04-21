@@ -20,12 +20,12 @@ import {
   import * as actions from "../../../actions/formManager";
   import * as patientActions from "../../../actions/patients";
   import * as encounterAction from "../../../actions/encounter";
-  import FormRenderer from 'components/FormManager/FormRenderer';
-  import ViewForm from 'components/FormManager/FormRendererView';
-  import UpdateForm from 'components/FormManager/FormRendererUpdate';
+  import FormRenderer from '../../../components/FormManager/FormRenderer';
+  import ViewForm from '../../../components/FormManager/FormRendererView';
+  import UpdateForm from '../../../components/FormManager/FormRendererUpdate';
   import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-  import * as CODES from "api/codes";
+  import * as CODES from "../../../api/codes";
   import EditIcon from '@material-ui/icons/Edit';
   import VisibilityIcon from '@material-ui/icons/Visibility';
   import Select from 'react-select';

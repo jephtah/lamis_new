@@ -7,8 +7,8 @@ import {
 import MatButton from '@material-ui/core/Button';
 import SaveIcon from '@material-ui/icons/Save';
 import Spinner from 'react-bootstrap/Spinner'
-import PatientVitals from 'components/PatientDashboard/PatientVitals'
-import PatientAllergies from 'components/PatientDashboard/PatientAllergies'
+import PatientVitals from '../../../components/PatientDashboard/PatientVitals'
+import PatientAllergies from '../../../components/PatientDashboard/PatientAllergies'
 import moment from 'moment';
 import {connect} from 'react-redux';
 import * as actions from "../../../actions/consultation";

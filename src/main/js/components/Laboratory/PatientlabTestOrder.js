@@ -40,10 +40,10 @@ import Paper from '@material-ui/core/Paper'
 import { toast } from 'react-toastify'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import Page from 'components/Page'
+import Page from '../../components/Page'
 import { connect } from 'react-redux'
-import { fetchAllLabTestOrderOfPatient } from "actions/laboratory";
-import { fetchById } from "actions/patients";
+import { fetchAllLabTestOrderOfPatient } from "../../actions/laboratory";
+import { fetchById } from "../../actions/patients";
 
 
 

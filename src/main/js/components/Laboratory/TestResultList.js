@@ -6,7 +6,7 @@ import {
   Form
 } from 'reactstrap';
 import {Link} from 'react-router-dom';
-import {fetchAllLabTestOrder} from "actions/laboratory";
+import {fetchAllLabTestOrder} from "../../actions/laboratory";
 import {connect} from 'react-redux';
 
 const FilterComponent = ({ filterText, onFilter, onClear }) => (
