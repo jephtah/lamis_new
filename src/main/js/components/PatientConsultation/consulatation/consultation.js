@@ -11,7 +11,7 @@ import PatientVitals from 'components/PatientDashboard/PatientVitals'
 import PatientAllergies from 'components/PatientDashboard/PatientAllergies'
 import moment from 'moment';
 import {connect} from 'react-redux';
-import * as actions from "actions/consultation";
+import * as actions from "../../../actions/consultation";
 
 function ConsultationPage (props) {
   const [errorMsg, setErrorMsg] = React.useState('')

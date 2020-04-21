@@ -17,7 +17,7 @@ import { TiWarningOutline } from "react-icons/ti";
  
 import { makeStyles } from '@material-ui/core/styles';
 import Title from 'components/Title/CardTitle';
-import CheckInList from './CheckInList.jsx';
+import CheckInList from './CheckInList';
 
 
 const useStyles = makeStyles(theme => ({

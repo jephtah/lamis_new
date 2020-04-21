@@ -13,13 +13,13 @@ import {
     FormGroup,
     Label,
     Button
-  } from 'reactstrap';
+  } from 'reactstrap';    
   import DataTable from 'react-data-table-component';
   import Spinner from 'react-bootstrap/Spinner';
   import {connect} from 'react-redux';
-  import * as actions from "actions/formManager";
-  import * as patientActions from "actions/patients";
-  import * as encounterAction from "actions/encounter";
+  import * as actions from "../../../actions/formManager";
+  import * as patientActions from "../../../actions/patients";
+  import * as encounterAction from "../../../actions/encounter";
   import FormRenderer from 'components/FormManager/FormRenderer';
   import ViewForm from 'components/FormManager/FormRendererView';
   import UpdateForm from 'components/FormManager/FormRendererUpdate';
@@ -274,10 +274,10 @@ function ServiceFormPage (props) {
     )
   }, [efilterText, eresetPaginationToggle])
 
-  const handleProgramChange = (newValue: any, actionMeta: any) => {
+  const handleProgramChange = (newValue, actionMeta) => {
       setFilteredForms(serviceForms.filter(x => x.programCode === newValue.value))
    };
-   const handleChange = (newValue: any, actionMeta: any) => {
+   const handleChange = (newValue, actionMeta) => { 
     setCurrentForm({...newValue, type:'NEW'});
    };
 

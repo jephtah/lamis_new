@@ -16,8 +16,8 @@ import {
   import Spinner from 'react-bootstrap/Spinner';
   import moment from 'moment';
   import Select from 'react-select';
-  import * as encounterActions from "actions/encounter";
-  import * as actions from "actions/laboratory";
+  import * as encounterActions from "../../../actions/encounter";
+  import * as actions from "../../../actions/laboratory";
   
   import {connect} from 'react-redux';
   import { v1 as uuidv1 } from 'uuid';

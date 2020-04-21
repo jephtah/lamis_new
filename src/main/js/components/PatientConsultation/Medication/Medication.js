@@ -29,9 +29,9 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import moment from 'moment';
 import Spinner from 'react-bootstrap/Spinner';
 import Select from 'react-select';
-import * as encounterAction from "actions/encounter";
-import * as actions from "actions/medication";
-import * as patientActions from "actions/patients";
+import * as encounterAction from "../../../actions/encounter";
+import * as actions from "../../../actions/medication";
+import * as patientActions from "../../../actions/patients";
 
 import {connect} from 'react-redux';
 import { v1 as uuidv1 } from 'uuid';
@@ -366,7 +366,7 @@ function NewDrugOrderForm({addDrugs, drugOrder, fetchingDrugs}){
            duration:"", dose:"",drug_order:"", generic_name:"", dose_frequency:""});
       };
 
-      const handleChange = (newValue: any, actionMeta: any) => {
+      const handleChange = (newValue, actionMeta) => {
        setmedi({...medi, drug_order: newValue.value});  
       };
 
