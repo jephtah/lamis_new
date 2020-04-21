@@ -4,10 +4,6 @@ const path = require('path')
 
 module.exports = {
   entry: "./src/main/js/index.js",
-  output: {
-    path: path.join(__dirname, "./src/main/public"),
-    filename: "bundle.js",
-  },
   module: {
     rules: [
       {
@@ -44,12 +40,9 @@ module.exports = {
     ],
   },
   devtool: "eval-source-map",
-  devServer: {
-    contentBase: path.join(__dirname, "public"),
-  },
   plugins: [
     new HtmlWebPackPlugin({
-      template: "./src/main/public/index.html",
+      template: "./src/main/index.html",
       filename: "./index.html",
     }),
   ],
