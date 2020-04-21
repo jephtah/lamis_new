@@ -1,13 +1,17 @@
-import { EmptyLayout, LayoutRoute, MainLayout } from "components/Layout";
-import PageSpinner from "components/PageSpinner";
+import React, { Component } from "react";
+import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
+const CheckInPage = React.lazy(() =>import("./components/CheckIn/CheckInPage"))
+  
+import { EmptyLayout, LayoutRoute, MainLayout } from "./components/Layout";
+import PageSpinner from "./components/PageSpinner";
 
 // import AuthPage from 'pages/AuthPage';
-import React, {Component} from "react";
+
+
 // React Toast Notification 
 // import { ToastContainer } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
 // import componentQueries from 'react-component-queries';
-import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import "./styles/reduction.scss";
 import SignIn from "pages/SignPage";
 import { history } from "./history";
@@ -18,7 +22,7 @@ const DashboardPage = React.lazy(() => import("pages/DashboardPage"));
 const PateintRegistationPage = React.lazy(() =>
   import("./components/patient/PateintRegistationPage")
 );
-const CheckInPage = React.lazy(() => import("./components/CheckIn/CheckInPage"));
+
 const VitalSignsPage = React.lazy(() =>
   import("./components/Vitals/VitalSignsPage")
 );
@@ -29,57 +33,57 @@ const PatientPrescriptions = React.lazy(() =>
 /* Consultation page loading */
 const ConsultationPage = React.lazy(() => import("pages/ConsultationPage"));
 const ConsultationDashboardPage = React.lazy(() =>
-  import("components/Consultation/Dashboard")
+  import("./components/Consultation/Dashboard")
 );
 
 /* Laboratory page loading */
 const LaboratoryPage = React.lazy(() =>
-  import("components/Laboratory/LaboratoryPageDashboard")
+  import("./components/Laboratory/LaboratoryPageDashboard")
 );
-const TestOrder = React.lazy(() => import("components/Laboratory/TestOrder"));
-const CollectSample = React.lazy(() =>import("components/Laboratory/CollectSample"));
-const LaboratorySampleResultPage = React.lazy(() =>import("components/Laboratory/CollectResult"));
-const PatientlabTestOrder = React.lazy(() =>import("components/Laboratory/PatientlabTestOrder"));
+const TestOrder = React.lazy(() => import("./components/Laboratory/TestOrder"));
+const CollectSample = React.lazy(() =>import("./components/Laboratory/CollectSample"));
+const LaboratorySampleResultPage = React.lazy(() =>import("./components/Laboratory/CollectResult"));
+const PatientlabTestOrder = React.lazy(() =>import("./components/Laboratory/PatientlabTestOrder"));
 const CollectedSample = React.lazy(() =>
   import("./components/Laboratory/CollectedSample")
 );
-const ViewResult = React.lazy(() => import("components/Laboratory/ViewResult"));
-const TestResult = React.lazy(() => import("components/Laboratory/TestResult"));
-const SampleVerification = React.lazy(() => import("components/Laboratory/SampleVerification"));
+const ViewResult = React.lazy(() => import("./components/Laboratory/ViewResult"));
+const TestResult = React.lazy(() => import("./components/Laboratory/TestResult"));
+const SampleVerification = React.lazy(() => import("./components/Laboratory/SampleVerification"));
 const PatientsPage = React.lazy(() =>
-  import("components/patient/PatientsPage")
+  import("./components/patient/PatientsPage")
 );
 const FormBuilder = React.lazy(() =>
-  import("components/FormManager/FormBuilder")
+  import("./components/FormManager/FormBuilder")
 );
-const ViewForm = React.lazy(() => import("components/FormManager/ViewForm"));
+const ViewForm = React.lazy(() => import("./components/FormManager/ViewForm"));
 
 /* Pharmacy page loading */
 const PharmacyDashboard = React.lazy(() => import("./components/Pharmacy/PharmacyDashboard"))
 
 const AppointmentPage = React.lazy(() => import("pages/AppointmentPage"));
 const CheckInPatientPage = React.lazy(() =>
-  import("components/CheckIn/CheckedInPatientPage")
+  import("./components/CheckIn/CheckedInPatientPage")
 );
 const ViewVitalsPage = React.lazy(() =>
-  import("components/Vitals/ViewVitalsPage")
+  import("./components/Vitals/ViewVitalsPage")
 );
 const AddVitalsPage = React.lazy(() =>
-  import("components/Vitals/AddVitalsPage")
+  import("./components/Vitals/AddVitalsPage")
 );
-// const CheckInModal = React.lazy(() => import('components/CheckIn/CheckInModal'));
+// const CheckInModal = React.lazy(() => import('./components/CheckIn/CheckInModal'));
 const EnrolledPatientsDashboard = React.lazy(() =>
-  import("components/PatientConsultation/HomePage")
+  import("./components/PatientConsultation/HomePage")
 );
 
 /* Sample table i design */
 const TestPage = React.lazy(() => import("pages/TestPage"));
-const FormRendererPage = React.lazy(() => import("components/FormManager/FormRendererPage"));
+const FormRendererPage = React.lazy(() => import("./components/FormManager/FormRendererPage"));
 const getBasename = () => {
   return `/${process.env.PUBLIC_URL.split("/").pop()}`;
 };
 
-const Prescript = React.lazy(() => import("components/Pharmacy/prescriptions"))
+const Prescript = React.lazy(() => import("./components/Pharmacy/prescriptions"))
 class Routes extends Component {
   render() {
     return (
