@@ -192,7 +192,7 @@ const PatientPrescriptions = (props) => {
                             backgroundColor: "#40b02c",
                             color: "#ffffff",
                           }}
-                          onClick={handleClickOpen}
+                          onClick={() => handleClickOpen()}
                         >
                           dispense
                         </button>
